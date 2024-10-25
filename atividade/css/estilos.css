@@ -1,0 +1,61 @@
+
+
+
+
+
+
+#logo{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+body{
+    background-image:url(https://img.freepik.com/fotos-gratis/belas-nuvens-arte-digital_23-2151105854.jpg?t=st=1729860747~exp=1729864347~hmac=b676630baf3f30b0fcdf6d5a62d518919153d78184284df4badacbdf019a1a88&w=740);
+    background-size: cover;
+    font-size: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    
+}
+
+#botoes{
+    font-size: 50px;
+}
+
+
+#botoes button{
+    border: 2px solid var(--back-up-color--);
+    background: transparent;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: rgb(194, 33, 27);
+    color: black;
+    transform: translateY(3px);  
+}
+.caixa{display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
